@@ -1,0 +1,42 @@
+vs code
+extensoes:
+java extension pack
+spring boot extension pack
+springboot dashboard
+lombok
+
+ctrl+shift+p java overview (create springboot project)
+
+dependencias spring:
+lombok
+springboot dev tools
+h2
+jpa
+springweb
+
+ver testes de unidade https://www.youtube.com/watch?v=7-TFGrNbzpM,
+ ver como rodar no servidor o .jar
+ver como rodar com mysql
+
+botao direito no pom edit startes(da pra incluir mais dependencias)
+
+
+
+spring.datasource.url=jdbc:mysql://localhost:3306/nome_base_de_dados?useSSL=false$serverTimezone=UTC
+spring.datasource.username=dbuser
+spring.datasource.password=dbpass
+spring.jpa.hibernate.ddl-auto=update
+
+
+comentar codigo
+
+
+
+
+
+
+
+
+
+
+
