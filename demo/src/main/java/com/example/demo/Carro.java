@@ -10,7 +10,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Entity
-@Data
+@Data //getters e setters
 @AllArgsConstructor
 @NoArgsConstructor
 public class Carro {
