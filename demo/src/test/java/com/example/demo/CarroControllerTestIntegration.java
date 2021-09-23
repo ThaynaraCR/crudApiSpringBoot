@@ -1,5 +1,4 @@
 package com.example.demo;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -24,7 +23,20 @@ public class CarroControllerTestIntegration {
         mockMvc.perform(get("/carro")
                 .accept(MediaType.APPLICATION_JSON))
                 .andExpect(status().isOk());
-               // .andExpect(content().string("Hello"));
     }
+
+    @Test
+    public void criaCarro() throws Exception {
+        mockMvc.perform(get("/carro")
+        .contentType("application/json")
+        .content("teste"))
+        .andExpect(status().isOk());
+    }
+
+
+//getbyid
+//put
+//delete
+
  
 }

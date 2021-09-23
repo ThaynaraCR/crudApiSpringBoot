@@ -1,5 +1,15 @@
-autenticação
-conectar no bd (outro repositorio)   main/resources/aplication proprieties
-gerar o .war
+
 subir no weblogic
 mensageria
+conectar no bd (outro repositorio)   main/resources/aplication proprieties
+
+
+************************Instructions*********************************
+comando para gerar o .jar    
+1- mvn package
+
+comando para gerar o .war    
+1-adicionar <packaging>war</packaging> no pom.xml
+2-mvn clean install -DskipTests
+
+
